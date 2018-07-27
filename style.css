@@ -1,0 +1,362 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+.main {
+  font-family: Lato;
+}
+
+.main .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .nav-bar .app-logo {
+  margin: 8px 0px 10px 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main .nav-bar .login {
+  padding: 15px 0px 15px 0px;
+  font-size: 12px;
+  font-family: Lato;
+  color: #963d9b;
+}
+
+.main .nav-bar .hamburger-menu {
+  margin: 16px;
+}
+
+.main .search {
+  -webkit-box-shadow: 0px 3px 10px #777777;
+          box-shadow: 0px 3px 10px #777777;
+  font-size: 12px;
+}
+
+.main .search .text-field {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgrey;
+  margin: 18px 20px 15px 10px;
+  width: 190px;
+}
+
+.main .search .place-name {
+  color: #963d9b;
+}
+
+.main .search .near {
+  color: #9E9E9E;
+}
+
+.main .search .search-icon {
+  padding: 0px 10px 0px 24px;
+}
+
+.main .image-text {
+  position: relative;
+}
+
+.main .category .search-for-the-lowest-price {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .category .show-card {
+  margin-left: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main .category .title-description {
+  margin-left: 15px;
+}
+
+.main .category .title-description .title {
+  font-size: 14px;
+  color: #963d9b;
+}
+
+.main .category .title-description .deatils {
+  font-size: 12px;
+  color: #9E9E9E;
+}
+
+.main .category hr {
+  width: 355px;
+  margin: 0px 10px 0px 10px;
+  border: 0;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.main .sign-up {
+  height: 200px;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .sign-up .sign-up-text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main .sign-up .sign-up-now {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main .sign-up .addon-text {
+  font-size: 9px;
+  margin-top: 15px;
+  color: #656565;
+}
+
+.main .sign-up .buttons {
+  margin-top: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .sign-up .buttons .sign-up-button {
+  background-color: #963d9b;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 34px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.main .sign-up .buttons .learn-more-button {
+  background-color: #f4f4f4;
+  border: 0.1rem solid #963d9b;
+  color: #963d9b;
+  outline: none;
+  width: 130px;
+  height: 34px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 40px 0px 40px 10px;
+}
+
+.main .cards .card-style {
+  width: 111px;
+  height: 135px;
+  text-align: center;
+  border: #95989A;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 0px 10px 20px 0px;
+}
+
+.main .cards .card-style .icons {
+  padding-top: 10px;
+}
+
+.main .cards .card-style .card-title {
+  margin: 10px 0px 5px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #963d9b;
+}
+
+.main .cards .card-style .card-details {
+  font-size: 10px;
+  color: #989898;
+}
+
+.main .advertisment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 60px;
+}
+
+.main .advertisment .save-on-the-go {
+  font-size: 26px;
+  font-weight: bold;
+  color: #656565;
+}
+
+.main .advertisment .get-mobile-app {
+  margin: 10px 0px 20px 0px;
+  color: #333333;
+  font-size: 18px;
+}
+
+.main .advertisment .addon-text-advertisment {
+  font-size: 12px;
+  color: #646464;
+}
+
+.main .advertisment .phone-logos {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .advertisment .phone-logos .icons {
+  margin-bottom: 8px;
+}
+
+.main .advertisment .phone-logos .phone {
+  margin: 28px 0px -70px 0px;
+}
+
+.main .footer {
+  position: relative;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main .footer .footer-container {
+  margin-top: 40px;
+  min-width: 50%;
+}
+
+.main .footer .footer-container .footer-title {
+  font-size: 18px;
+}
+
+.main .footer .footer-container .footer-description {
+  font-size: 14px;
+  margin-top: 13px;
+  color: #5f605f;
+}
+
+.main .terms-and-conditions {
+  margin: 30px 25px;
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #5f605f;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .terms-and-conditions .highlight {
+  font-weight: bold;
+}
+
+.main .footer-conclusion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .footer-conclusion .footer-image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .footer-conclusion .follow {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 42px;
+}
+
+.main .footer-conclusion .footer-conclusion-description {
+  margin-top: 10px;
+  color: #95989a;
+}
+
+.main .footer-conclusion .footer-conclusion-description .copyright {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.main .footer-conclusion .footer-conclusion-description .privacy-policy {
+  font-size: 12px;
+}
+
+.main .bold {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
