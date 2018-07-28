@@ -191,10 +191,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       flex-direction: row;
       display: flex;
       .icons {
-        margin-bottom: 8px;
         display: flex;
         flex-direction: column;
-        margin: 63px 49px 0px 60px;
+        margin: 63px 49px 15px 60px;
         .icon1{
           width: 101px;
         }
@@ -223,6 +222,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       .footer-title {
         font-size: 18px;
       }
+      .first-line{
+        padding-top: 13px;
+        color: #656565;
+        font-size: 14px;
+      }
+      .next-lines{
+        color: #656565;
+        font-size: 14px;
+      }
+
       .footer-description {
         font-size: 14px;
         margin-top: 13px;

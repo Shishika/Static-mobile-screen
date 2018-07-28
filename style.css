@@ -272,7 +272,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .main .advertisment .phone-logos .icons {
-  margin-bottom: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -280,7 +279,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 63px 49px 0px 60px;
+  margin: 63px 49px 15px 60px;
 }
 
 .main .advertisment .phone-logos .icons .icon1 {
@@ -320,6 +319,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .main .footer .footer-container .footer-title {
   font-size: 18px;
+}
+
+.main .footer .footer-container .first-line {
+  padding-top: 13px;
+  color: #656565;
+  font-size: 14px;
+}
+
+.main .footer .footer-container .next-lines {
+  color: #656565;
+  font-size: 14px;
 }
 
 .main .footer .footer-container .footer-description {
