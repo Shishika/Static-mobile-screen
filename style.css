@@ -97,6 +97,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .main .category .title-description .title {
   font-size: 14px;
   color: #963d9b;
+  margin-bottom: 5px;
 }
 
 .main .category .title-description .deatils {
@@ -138,12 +139,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .main .sign-up .sign-up-now {
   font-weight: bold;
   font-size: 22px;
+  line-height: normal;
 }
 
 .main .sign-up .addon-text {
   font-size: 9px;
   margin-top: 15px;
   color: #656565;
+}
+
+.main .sign-up .addon-text .vertical-line {
+  padding: 0px 4px 0px 4px;
 }
 
 .main .sign-up .buttons {
@@ -227,21 +233,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .main .advertisment .save-on-the-go {
+  margin: 0px 99px 10px 100px;
   font-size: 26px;
   font-weight: bold;
   color: #656565;
 }
 
 .main .advertisment .get-mobile-app {
-  margin: 10px 0px 20px 0px;
+  margin: 10px 25px 20px 25px;
   color: #333333;
   font-size: 18px;
+  line-height: normal;
 }
 
 .main .advertisment .addon-text-advertisment {
@@ -249,18 +255,45 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: #646464;
 }
 
+.main .advertisment .addon-text-advertisment-second-line {
+  font-size: 12px;
+  color: #646464;
+  margin-left: 13px;
+}
+
 .main .advertisment .phone-logos {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main .advertisment .phone-logos .icons {
   margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 63px 49px 0px 60px;
+}
+
+.main .advertisment .phone-logos .icons .icon1 {
+  width: 101px;
+}
+
+.main .advertisment .phone-logos .icons .icon2 {
+  width: 99px;
 }
 
 .main .advertisment .phone-logos .phone {
+  width: 100px;
+  height: 200px;
   margin: 28px 0px -70px 0px;
 }
 
