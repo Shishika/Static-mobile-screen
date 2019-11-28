@@ -1,2 +1,2 @@
 # UI-WellRx-Homepage
-UI for the home page of WellRx - assignment
+This page is developed in order to build skills on using HTML and SCSS in a best way.
